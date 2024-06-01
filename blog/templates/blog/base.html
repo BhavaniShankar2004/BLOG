@@ -16,6 +16,8 @@
  <link rel="stylesheet" type="text/css" href="{% static 'blog/main.css' %}">
 
 
+
+
     {% if title %}
        <title>Scrollog - {{title}} </title>
     {% else %}
@@ -93,7 +95,10 @@
       </main>
 
 
-      <footer class="text-center bg-body-tertiary">
+      <footer class="text-center bg-body-tertiary"  style= "position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;">
 
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0);">
